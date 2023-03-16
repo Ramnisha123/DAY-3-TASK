@@ -1,0 +1,70 @@
+DIFFENCE BETWEEN DOCUMENT, SCREEN & WINDOW:
+  Document:
+   Each HTML document loaded into a browser window becomes a document object.
+   It is a top document object in window.
+   It is property of a window object.(window.document.getelementbyID()
+
+  Screen:
+    It descripes the physical display's dimentions of full screen.
+    It has the properties like width and hight.
+    Diplaying the rendered document known as viewport in JS.
+         (screen.height)
+         (screen.width)
+
+  Window:
+     It represents a window in a browser.
+     It is global object and it's also root for everything.
+     It has property like browser history, location and device's screen etc..
+                  window.open()
+                  Window.close()
+                  window.moveTo
+
+
+
+
+
+
+RESUME DATA IN JSON FORMATE:
+
+{
+  "basics": {
+   "firstName":"Nisha",
+   "lastName": "Ramachandran",
+    "email" :  "ramnilsha014@gmail.com",
+  "date of birth": "6.10.1997",
+     "phone":  "8668003403",
+   "Address":"6/19 collector office main road,trichy-1
+    "nationality": "Indian",
+
+}
+
+"education":[{
+"institution": "jamal mohamed college",
+"university": "Bharathidasan university",
+"degree": "M.sc",
+"start year": "2018",
+"end year": "2020"
+"languages": "Tamil & English",
+
+]}
+
+
+"certificate": [{
+ "project": "doing  project in organic synthesis",
+"chem expo": " CHEM-FIESTA",
+]}
+
+
+
+"interest": [{
+ "name": "Badminton & cooking ",
+
+]}
+
+
+
+
+
+
+
+
